@@ -65,14 +65,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit Client - My Shop</title>
+    <title>Edit Client - My Students</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
      <?php include 'navbar.php'; ?>
     <div class="container my-5">
-        <h2>Edit Client</h2>
+        <h2>Edit Student</h2>
         
         <?php if (!empty($errorMessage)): ?>
             <div class="alert alert-warning alert-dismissible fade show" role="alert">
